@@ -1,0 +1,18 @@
+{
+  "logo": "txt.png",
+  "version": "1.0.0",
+  "homepage": "http://oct1a.cn",
+  "author": "Oct1a",
+  "preload": "preload.js",
+  "features": [{
+    "code": "convert",
+    "explain": "文本转word",
+    "cmds": [{
+      "type": "files",
+      "label": "转为Word文档",
+      "fileType": "file",
+      "match": "/.txt$/",
+      "minNum": 1
+    }]
+  }]
+}
